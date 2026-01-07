@@ -997,7 +997,7 @@ body {
 }
 @media (max-width: 768px){
     .content__letter .right .text__letter{
-        height: 160px;
+        height: 220px;
         font-size: 1.05rem;
     }
 }
