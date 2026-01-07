@@ -954,6 +954,42 @@ body {
     25%{transform: translateX(-8px)}
     75%{transform: translateX(8px)}
 }
+.content__letter .right .text__letter{
+    margin-top: 60px;
+    padding: 18px 18px;
+
+    /* KHUNG GIẤY */
+    background-color: #fffaf0;
+    border: 2px solid var(--color-border);
+    border-radius: 14px;
+
+    /* GIỚI HẠN CHIỀU CAO */
+    max-height: 220px;
+    overflow-y: auto;
+
+    /* CHỮ */
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.25rem;
+    line-height: 1.6;
+    color: #3b2f2f;
+
+    /* CẢM GIÁC GIẤY */
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.05);
+}
+
+/* chữ bên trong */
+.content__letter .right .text__letter p{
+    white-space: pre-wrap;
+}
+
+/* THANH CUỘN ĐẸP */
+.content__letter .right .text__letter::-webkit-scrollbar{
+    width: 6px;
+}
+.content__letter .right .text__letter::-webkit-scrollbar-thumb{
+    background-color: #e2bcbc;
+    border-radius: 10px;
+}
 @media (max-width: 768px){
     .content__letter .right .text__letter{
         max-height: 220px;
