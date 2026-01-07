@@ -954,3 +954,10 @@ body {
     25%{transform: translateX(-8px)}
     75%{transform: translateX(8px)}
 }
+@media (max-width: 768px){
+    .content__letter .right .text__letter{
+        max-height: 220px;
+        font-size: 1.05rem;
+        padding: 14px;
+    }
+}
